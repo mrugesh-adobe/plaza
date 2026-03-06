@@ -1,0 +1,80 @@
+{
+  "templates": [
+    {
+      "name": "sparkle-homepage",
+      "urls": [
+        "https://plaza-sparkle-launch.lovable.app"
+      ],
+      "description": "Plaza Sparkle Launch homepage with hero, deals cards, lounge location cards, and promotional CTA sections.",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section#booking"
+          ]
+        },
+        {
+          "name": "cards-deals",
+          "instances": [
+            "section.bg-cream .grid"
+          ]
+        },
+        {
+          "name": "cards-locations",
+          "instances": [
+            "section#destinations .grid"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero with Booking Form",
+          "selector": "section#booking",
+          "style": "dark",
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Latest Deals & Partner Offers",
+          "selector": "section.bg-cream",
+          "style": "cream",
+          "blocks": [
+            "cards-deals"
+          ],
+          "defaultContent": [
+            "section.bg-cream h2"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "New & Reopened Lounges",
+          "selector": "section#destinations",
+          "style": null,
+          "blocks": [
+            "cards-locations"
+          ],
+          "defaultContent": [
+            "section#destinations h2",
+            "section#destinations p.text-center"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Online Exclusive Offer CTA",
+          "selector": "section.bg-cta-gradient",
+          "style": "dark",
+          "blocks": [],
+          "defaultContent": [
+            "section.bg-cta-gradient h2",
+            "section.bg-cta-gradient p",
+            "section.bg-cta-gradient a"
+          ]
+        }
+      ]
+    }
+  ]
+}

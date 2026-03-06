@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-deals",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-06T09:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://plaza-sparkle-launch.lovable.app",
+    "originPage": "Plaza Sparkle Launch homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "promotional-deals",
+    "imagePattern": "noimg",
+    "structure": "tag + title + description + CTA"
+  },
+  "contentPattern": {
+    "structure": "tag + title + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional deal listings",
+      "offer cards without images",
+      "text-based feature cards with CTAs"
+    ],
+    "notSuitableFor": [
+      "cards with prominent images",
+      "location or destination cards",
+      "image gallery cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T09:07:00.000Z"
+  }
+}

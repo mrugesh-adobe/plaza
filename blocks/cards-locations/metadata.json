@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-locations",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-06T09:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://plaza-sparkle-launch.lovable.app",
+    "originPage": "Plaza Sparkle Launch homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "location-showcase",
+    "imagePattern": "large",
+    "structure": "image + date + city + terminal"
+  },
+  "contentPattern": {
+    "structure": "image + date + city + terminal",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "location or destination showcase cards",
+      "image-heavy cards with overlay info",
+      "lounge or venue listings"
+    ],
+    "notSuitableFor": [
+      "text-only promotional cards",
+      "cards without images",
+      "feature or benefit cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-06T09:07:00.000Z"
+  }
+}
